@@ -12,7 +12,3 @@ Feature: Hovers page
             | '/html/body/div[2]/div/div/div[1]/img'  | '/html/body/div[2]/div/div/div[1]/div/h5'  |
             | '/html/body/div[2]/div/div/div[2]/img'  | '/html/body/div[2]/div/div/div[2]/div/h5'  |
             | '/html/body/div[2]/div/div/div[3]/img'  | '/html/body/div[2]/div/div/div[2]/div/h5'  |
-
-
-    
-
