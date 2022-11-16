@@ -1,0 +1,134 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668630878698' stop='1668630879868'>
+    <name>The Hover Page: As A user, I can hover any image and click to view profile.</name>
+    <title>The Hover Page: As A user, I can hover any image and click to view profile.</title>
+    <test-cases>
+        <test-case start='1668630878698' status='passed' stop='1668630878698'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668630878698' status='passed' stop='1668630879816'>
+            <name>Given I am on the "hovers" page</name>
+            <title>Given I am on the "hovers" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps>
+                <step start='1668630878699' status='passed' stop='1668630879816'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f33067a5-b944-4cd3-86b5-fe1ad55a9d6b-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668630879817' status='passed' stop='1668630879866'>
+            <name>When I hover on '/html/body/div[2]/div/div/div[2]/img'</name>
+            <title>When I hover on '/html/body/div[2]/div/div/div[2]/img'</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps>
+                <step start='1668630879817' status='passed' stop='1668630879833'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dff983c3-bc69-4de4-8f84-9ce9e5b834a2-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='edadddd1-3a37-4df0-bc7a-b6553293b51a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668630879835' status='passed' stop='1668630879845'>
+                    <name>GET /session/:sessionId/element/40d14135-2646-4f7e-b92e-dfb529ed109f/rect</name>
+                    <title>GET /session/:sessionId/element/40d14135-2646-4f7e-b92e-dfb529ed109f/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='6bbdb5ff-aef8-4156-b068-03a83dbbf85f-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668630879845' status='passed' stop='1668630879852'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='6a62ea86-7acf-4692-8d8e-98db7e5ee013-attachment.json' type='application/json' size='158'/>
+                        <attachment title='Response' source='53ce36c5-b8c5-4cb2-ac56-77e9427f2b90-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668630879852' status='passed' stop='1668630879862'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='d2970273-f0c0-428c-bf85-df27d3a989c1-attachment.json' type='application/json' size='288'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668630879862' status='passed' stop='1668630879866'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668630879866' status='broken' stop='1668630879868'>
+            <name>Then I see a users info '//*[@id="content"]/div/div[2]/div/a'.</name>
+            <title>Then I see a users info '//*[@id="content"]/div/div[2]/div/a'.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: browser.call is not a function</message>
+                <stack-trace>TypeError: browser.call is not a function
+                    at Object.toExistFn (/Users/tatsianaklimovich/Documents/hw-automation-framework/node_modules/expect-webdriverio/lib/matchers/element/toBeExisting.js:11:20)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (/Users/tatsianaklimovich/Documents/hw-automation-framework/features/step-definitions/steps.js:83:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668630879868' status='passed' stop='1668630879868'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

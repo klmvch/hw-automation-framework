@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668628362166' stop='1668628362450'>
+    <name>Add/Remove elements page: As a user, I can add two 'Delete' buttons</name>
+    <title>Add/Remove elements page: As a user, I can add two 'Delete' buttons</title>
+    <test-cases>
+        <test-case start='1668628362166' status='passed' stop='1668628362166'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668628362167' status='passed' stop='1668628362380'>
+            <name>Given I am on the "add_remove_elements/" page</name>
+            <title>Given I am on the "add_remove_elements/" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps>
+                <step start='1668628362167' status='passed' stop='1668628362379'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='776f5b38-3e73-487d-b4ed-93f0bee0979d-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668628362380' status='passed' stop='1668628362422'>
+            <name>When I click on the 'Add element' button twice</name>
+            <title>When I click on the 'Add element' button twice</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps>
+                <step start='1668628362380' status='passed' stop='1668628362388'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3f246fc6-a51d-4ecd-9cae-5ff889d46fc4-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='677e586d-91eb-4fca-a5d0-e8772af2d0a1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668628362390' status='passed' stop='1668628362422'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='4a04ea6d-f4bd-44a5-b260-34902f83c175-attachment.json' type='application/json' size='5911'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668628362422' status='passed' stop='1668628362450'>
+            <name>Then I see the second 'Delete' button</name>
+            <title>Then I see the second 'Delete' button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps>
+                <step start='1668628362422' status='passed' stop='1668628362433'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='288b0229-36d4-45a8-920f-09208b6abb96-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='9ef0266d-c87f-4454-90ac-223c16f4d6a7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668628362435' status='passed' stop='1668628362449'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='48d260e6-1b40-4fdf-8d2e-e2206d17f73e-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='225c5417-b2eb-411e-bc1f-3fa255332cb9-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668628362450' status='passed' stop='1668628362450'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

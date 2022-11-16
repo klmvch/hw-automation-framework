@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668540500526' stop='1668540500793'>
+    <name>Key presses page: : As A user, I can press a key and see what I inputted</name>
+    <title>Key presses page: : As A user, I can press a key and see what I inputted</title>
+    <test-cases>
+        <test-case start='1668540500526' status='passed' stop='1668540500526'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668540500527' status='passed' stop='1668540500774'>
+            <name>Given I am on the "key_presses" page</name>
+            <title>Given I am on the "key_presses" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps>
+                <step start='1668540500527' status='passed' stop='1668540500773'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='bb60ed17-76cd-4bfc-9768-ad1fa1a66d53-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668540500774' status='passed' stop='1668540500792'>
+            <name>When I press a random</name>
+            <title>When I press a random</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps>
+                <step start='1668540500774' status='passed' stop='1668540500783'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='99191158-0b27-41d4-b5db-5bbf011a550e-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='43f9ae21-5714-4a07-90e8-5242d13046b3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668540500785' status='passed' stop='1668540500788'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='537f0114-71cd-45c2-b2e2-52844e60c4c2-attachment.json' type='application/json' size='99'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668540500789' status='passed' stop='1668540500791'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1668540500792' status='broken' stop='1668540500792'>
+            <name>Then I see a You entered: SPACE on the screen</name>
+            <title>Then I see a You entered: SPACE on the screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I see a You entered: SPACE on the screen" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I see a You entered: SPACE on the screen" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/tatsianaklimovich/Documents/hw-automation-framework/features/key_presses.feature):1:1
+                	at Scenario(: As A user, I can press a key and see what I inputted):6:3
+                	at Step(I see a &lt;message> on the screen):8:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668540500792' status='passed' stop='1668540500793'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

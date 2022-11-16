@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668530540140' stop='1668530540146'>
+    <name>The Elements Website: As a user, I can click on 'Add' button</name>
+    <title>The Elements Website: As a user, I can click on 'Add' button</title>
+    <test-cases>
+        <test-case start='1668530540140' status='passed' stop='1668530540142'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668530540142' status='broken' stop='1668530540143'>
+            <name>When I click on add button</name>
+            <title>When I click on add button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on add button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on add button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/tatsianaklimovich/Documents/hw-automation-framework/features/add_remove_elements.feature):1:1
+                	at Scenario(As a user, I can click on 'Add' button):6:1
+                	at Step(I click on add button):8:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668530540143' status='broken' stop='1668530540144'>
+            <name>Then Delete button appear</name>
+            <title>Then Delete button appear</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Delete button appear" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Delete button appear" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/tatsianaklimovich/Documents/hw-automation-framework/features/add_remove_elements.feature):1:1
+                	at Scenario(As a user, I can click on 'Add' button):6:1
+                	at Step(Delete button appear):9:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668530540144' status='broken' stop='1668530540144'>
+            <name>When I click on delete button</name>
+            <title>When I click on delete button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on delete button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on delete button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/tatsianaklimovich/Documents/hw-automation-framework/features/add_remove_elements.feature):1:1
+                	at Scenario(As a user, I can click on 'Add' button):6:1
+                	at Step(I click on delete button):10:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668530540144' status='broken' stop='1668530540144'>
+            <name>Then Delete button disappear</name>
+            <title>Then Delete button disappear</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Delete button disappear" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Delete button disappear" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/tatsianaklimovich/Documents/hw-automation-framework/features/add_remove_elements.feature):1:1
+                	at Scenario(As a user, I can click on 'Add' button):6:1
+                	at Step(Delete button disappear):11:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668530540145' status='passed' stop='1668530540146'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668531332877' stop='1668531332893'>
+    <name>The Login Website: As a user, I can add a new button</name>
+    <title>The Login Website: As a user, I can add a new button</title>
+    <test-cases>
+        <test-case start='1668531332878' status='passed' stop='1668531332879'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668531332879' status='pending' stop='1668531332890'>
+            <name>Given I am on the "add_remove_element/" page</name>
+            <title>Given I am on the "add_remove_element/" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668531332890' status='broken' stop='1668531332891'>
+            <name>When I click on &lt;Add Element> button</name>
+            <title>When I click on &lt;Add Element> button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on &lt;Add Element> button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on &lt;Add Element> button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/tatsianaklimovich/Documents/hw-automation-framework/features/add_remove_elements.feature):1:1
+                	at Scenario(As a user, I can add a new button):6:3
+                	at Step(I click on &lt;Add Element> button):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668531332891' status='broken' stop='1668531332891'>
+            <name>Then The new &lt;Delete> button appears</name>
+            <title>Then The new &lt;Delete> button appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "The new &lt;Delete> button appears" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "The new &lt;Delete> button appears" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/tatsianaklimovich/Documents/hw-automation-framework/features/add_remove_elements.feature):1:1
+                	at Scenario(As a user, I can add a new button):6:3
+                	at Step(The new &lt;Delete> button appears):8:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668531332891' status='passed' stop='1668531332892'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

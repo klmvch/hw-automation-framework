@@ -1,0 +1,173 @@
+{
+  "actions": [
+    {
+      "type": "pointer",
+      "id": "pointer1",
+      "parameters": {
+        "pointerType": "mouse"
+      },
+      "actions": [
+        {
+          "type": "pointerMove",
+          "origin": {
+            "sessionId": "7f272d46a61fbb7ba6aefca740c1e40d",
+            "elementId": "38bd3221-7cb2-4da8-b1fa-74b935862d67",
+            "element-6066-11e4-a52e-4f735466cecf": "38bd3221-7cb2-4da8-b1fa-74b935862d67",
+            "selector": "/html/body/div[2]/div/div/button",
+            "parent": {
+              "sessionId": "7f272d46a61fbb7ba6aefca740c1e40d",
+              "capabilities": {
+                "acceptInsecureCerts": true,
+                "browserName": "chrome",
+                "browserVersion": "107.0.5304.110",
+                "chrome": {
+                  "chromedriverVersion": "107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942})",
+                  "userDataDir": "/var/folders/kv/_0cm1zz91ds5l30571yq8pk40000gp/T/.com.google.Chrome.RztZTg"
+                },
+                "goog:chromeOptions": {
+                  "debuggerAddress": "localhost:52560"
+                },
+                "networkConnectionEnabled": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "mac os x",
+                "proxy": {},
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify",
+                "webauthn:extension:credBlob": true,
+                "webauthn:extension:largeBlob": true,
+                "webauthn:virtualAuthenticators": true
+              },
+              "config": {
+                "specs": [
+                  "./features/**/*.feature"
+                ],
+                "suites": {},
+                "exclude": [],
+                "logLevel": "info",
+                "logLevels": {},
+                "excludeDriverLogs": [],
+                "bail": 0,
+                "waitforInterval": 500,
+                "waitforTimeout": 10000,
+                "framework": "cucumber",
+                "reporters": [
+                  "spec",
+                  [
+                    "allure",
+                    {
+                      "outputDir": "allure-results"
+                    }
+                  ]
+                ],
+                "services": [
+                  "chromedriver"
+                ],
+                "maxInstances": 10,
+                "maxInstancesPerCapability": 100,
+                "filesToWatch": [],
+                "connectionRetryTimeout": 120000,
+                "connectionRetryCount": 3,
+                "execArgv": [],
+                "runnerEnv": {},
+                "runner": "local",
+                "specFileRetries": 0,
+                "specFileRetriesDelay": 0,
+                "specFileRetriesDeferred": false,
+                "reporterSyncInterval": 100,
+                "reporterSyncTimeout": 5000,
+                "cucumberFeaturesWithLineNumbers": [],
+                "autoCompileOpts": {
+                  "autoCompile": true,
+                  "tsNodeOpts": {
+                    "transpileOnly": true
+                  },
+                  "babelOpts": {}
+                },
+                "mochaOpts": {
+                  "timeout": 10000
+                },
+                "jasmineOpts": {
+                  "defaultTimeoutInterval": 10000
+                },
+                "cucumberOpts": {
+                  "timeout": 60000,
+                  "require": [
+                    "./features/step-definitions/steps.js"
+                  ],
+                  "backtrace": false,
+                  "requireModule": [],
+                  "dryRun": false,
+                  "failFast": false,
+                  "snippets": true,
+                  "source": true,
+                  "strict": false,
+                  "tagExpression": "",
+                  "ignoreUndefinedDefinitions": false
+                },
+                "onPrepare": [],
+                "onWorkerStart": [],
+                "onWorkerEnd": [],
+                "before": [],
+                "beforeSession": [],
+                "beforeSuite": [],
+                "beforeHook": [],
+                "beforeTest": [],
+                "beforeCommand": [],
+                "afterCommand": [],
+                "afterTest": [],
+                "afterHook": [],
+                "afterSuite": [],
+                "afterSession": [],
+                "after": [],
+                "onComplete": [],
+                "onReload": [],
+                "beforeFeature": [],
+                "beforeScenario": [],
+                "beforeStep": [],
+                "afterStep": [],
+                "afterScenario": [],
+                "afterFeature": [],
+                "baseUrl": "http://localhost",
+                "_": [
+                  "run"
+                ],
+                "$0": "/Users/tatsianaklimovich/Documents/hw-automation-framework/node_modules/.bin/wdio",
+                "config-path": "wdio.conf.js",
+                "ignoredWorkerServices": []
+              }
+            },
+            "isReactElement": false
+          },
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        },
+        {
+          "type": "pause",
+          "duration": 10
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        }
+      ]
+    }
+  ]
+}
